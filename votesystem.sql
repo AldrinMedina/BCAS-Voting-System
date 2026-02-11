@@ -111,6 +111,10 @@ CREATE TABLE `sad` (
 
 -- --------------------------------------------------------
 
+INSERT INTO `sad` (`id`, `username`, `password`, `firstname`, `lastname`, `created_on`) VALUES
+(5, 'superadmin', '$2y$10$UhR3.RiHAIKnlDd0TTiQT.Oq4k6b.Wt.CgnOOnouCsxKgl8tCdaI.', 'Realm', 'Expansion', '2024-09-08');
+
+
 --
 -- Table structure for table `settings`
 --
